@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.swo
+.Python
+env/
+.venv/
+ENV/
+*.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Spark
+*.crc
+.derby/
+.metastore_db/
+*.log
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Mac & Windows system files
+.DS_Store
+Thumbs.db
+
+# Data outputs
+# Ignore blob storage simulation folders and raw data
+FieldServiceProject/blob_storage_simulation/bronze/
+FieldServiceProject/blob_storage_simulation/silver/
+FieldServiceProject/raw_data/
+FieldServiceProject/notebooks/sample_features/
+*.parquet
+*.csv
+
+# Zip archives
+*.zip
